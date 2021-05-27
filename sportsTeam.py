@@ -6,13 +6,13 @@ number = int(input("Enter the number of members on the '{}' team:".format(name_t
 counter = 0
 while counter < number :
 
-	Name = input('Enter name:')
-	Age = input('Enter age:')
-	Sport = input('Enter the sport she/he will be playing:')
+	name = input('Enter name:')
+	age = input('Enter age:')
+	sport = input('Enter the sport she/he will be playing:')
 	
-	print(f'The name of the participant is {Name}.')
-	print(f'The age of the participant is {Age}.')
-	print(f'The sport of the participant is {Sport}.')
+	print(f'The name of the participant is {name}.')
+	print(f'The age of the participant is {age}.')
+	print(f'The sport of the participant is {sport}.')
 
 	counter += 1
 
